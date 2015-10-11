@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__.'/../vendor/autoload.php';
+
+use \Lykov\Application;
+
+$app = new Application('Lykov', Application::VERSION);
+$app->run(new \Symfony\Component\Console\Input\ArgvInput());

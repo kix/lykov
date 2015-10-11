@@ -1,0 +1,25 @@
+{
+    "name": "kix/lykov",
+    "description": "A planning poker dealer bot for Slack",
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "Lykov\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stepan Anchugov",
+            "email": "kixxx1@gmail.com"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^0.4.1",
+        "cboden/ratchet": "^0.3.3",
+        "ratchet/pawl": "^0.1.2",
+        "guzzlehttp/guzzle": "~6.0",
+        "monolog/monolog": "~1.17",
+        "symfony/console": "~2.7",
+        "mkraemer/react-pcntl": "dev-master"
+    }
+}
